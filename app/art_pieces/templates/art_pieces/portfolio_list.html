@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <h1>Portfolio</h1>
+    <ul>
+      {% for portfolio in art_pieces %}
+      <li>{{ portfolio.title }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
